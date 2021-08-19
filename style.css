@@ -1,0 +1,192 @@
+:root{
+    --white : #F6F7EB;
+    --orange : #E94F37;
+    --grey : #393E41;
+    --blue : #3F88C5;
+    --green : #44BBA4;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+    
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: var(--white);
+}
+
+.topButton{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.topButton img{
+    width: 50px;
+}
+
+header{
+    background: var(--grey);
+    position: sticky;
+    top: 0px;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav a img{
+    width: 70px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    color: var(--orange);
+    text-decoration: none;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    border: 2px solid black;
+    margin: 1rem 7rem;
+    border-radius: 10px;
+}
+
+.green{
+    background-color: var(--green);
+}
+
+.blue{
+    background-color: var(--blue);
+}
+
+.gallery{
+    flex-direction: column;
+}
+
+.gallery h2{
+    padding: 1rem 1rem 0 1rem;
+    font-size: 3rem;
+    color: white;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding : 1.5rem
+}
+
+.gallery img{
+    width: 350px;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: var(--grey);
+    padding: 2rem;
+    color: var(--white);
+}
+
+@media only screen and (max-width: 1024px){
+    section{
+        margin: 3rem;
+    }
+
+    .main img{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    section{
+        margin: 1rem;
+    }
+
+    .main img{
+        width: 270px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    section{
+        margin: 1rem;
+    }
+
+    .main img{
+        width: 230px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    section{
+        margin: 1rem;
+    }
+
+    .main img{
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    section{
+        margin: 1rem;
+    }
+
+    .main img{
+        width: 390px;
+    }
+}
+
+
+@media only screen and (max-width: 425px){
+    section{
+        margin: 1.5rem;
+    }
+
+    .main img{
+        width: 320px;
+    }
+}
+
+
+@media only screen and (max-width: 375px){
+    section{
+        margin: 1.5rem;
+    }
+
+    .main img{
+        width: 290px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    section{
+        margin: 1.5rem;
+    }
+
+    .main img{
+        width: 250px;
+    }
+}
