@@ -1,2 +1,2 @@
-# SmrutiFY - https://mr-lazyprogrammer.github.io/SmrutiFY/
+# SmrutiFY - https://iamsmruti.github.io/SmrutiFY/
 A Gallery
